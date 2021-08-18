@@ -764,15 +764,37 @@ footer {
 }
 
 @media screen and (max-width: 412px) {
+  .sessao-contato {
+    height: auto;
+    padding: 2rem 0 2rem;
+  }
+  .sessao-orcamento {
+    height: auto;
+    padding: 4rem 0 2rem;
+  }
+  .orcamento-wrapper {
+    width: 90%;
+  }
   .sessao-orcamento h1 {
     font-size: 1.5rem;
   }
   .sessao-orcamento form {
     margin: 2rem .8rem;
   }
-
   .card-info, .card:hover .card-info {
     padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .card {
+    height: 25rem;
+  }
+  .card-info h3 {
+    margin-bottom: 0;
+  }
+  .card-info, .card:hover .card-info {
+    padding: .2rem .2rem .2rem 1rem;
   }
 }
 /* Fim Media Queries */
